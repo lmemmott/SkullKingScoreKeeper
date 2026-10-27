@@ -234,6 +234,7 @@ All illustrations and icons are line art in one consistent style:
 - **Kept until deleted.** Games stay in Past Games until the scorekeeper deletes them.
 - **Limit of 1,000 saved games.** If 1,000 games are saved, **Start Game** asks before going on: "You have 1,000 saved games. Delete the oldest game (Calico Jack, started Oct 27, 2026, 7:15 PM) to make room?" Choosing **Delete and Start** removes that game and starts the new one. Choosing **Cancel** returns to Game Setup without starting. Games are never deleted without the scorekeeper's confirmation.
 - **Storage size.** Each saved game must be stored compactly, so 1,000 games fit within the browser's storage limit for the site.
+- **Runs on a local web server.** The app is served by Python at `http://localhost:8000` on the scorekeeper's computer. Saved games are stored in that browser's `localStorage` for that exact address.
 - **Stored in the browser on this device.** History is not shared across devices or browsers. Clearing the browser's site data deletes it.
 
 ## Correcting Earlier Rounds
@@ -263,6 +264,13 @@ The scorekeeper can go back to any earlier round in the current game to fix a mi
   - 16px side gutter. No horizontal page scroll.
 - **Tablet (600px to 1023px):** Player rows become a two-column grid on the Enter Results and Enter Bids screens.
 - **Desktop (1024px and wider):** Score tables use full table layout, with the running total always visible.
+
+## Future Ideas
+
+Agreed in principle, but not part of this version:
+
+- **Export and Import:** Buttons on Past Games. Export saves all games to a `.json` file the scorekeeper can keep anywhere. Import loads games from such a file, for example after the browser's data is cleared or when moving to another computer.
+- **Animations and sound.**
 
 ## Open Questions
 

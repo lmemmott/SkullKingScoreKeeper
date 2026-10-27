@@ -30,19 +30,19 @@ SkullKingGame/
 
 ## Running the game
 
-No build step or dependencies. Open `index.html` in a browser, or serve the folder with any static file server, for example:
+No build step or dependencies. The app runs on a local web server using Python 3.
 
-```
-npx serve .
-```
+1. Install Python 3 if it is not already installed.
+2. From the project folder, start the server:
 
-or
+   ```
+   python -m http.server 8000
+   ```
 
-```
-python -m http.server 8000
-```
+3. Open `http://localhost:8000` in the browser.
+4. Stop the server with Ctrl+C when finished.
 
-Then visit `http://localhost:8000`.
+**Always use the same address.** Saved games are stored in the browser, tied to the exact address `http://localhost:8000`. Using a different port (such as 8080) or `127.0.0.1` instead of `localhost` opens an empty game history. The old games are not lost, but they only appear again at the original address.
 
 ## Development
 
