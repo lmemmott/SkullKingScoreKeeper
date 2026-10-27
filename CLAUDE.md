@@ -4,7 +4,10 @@ Guidance for Claude Code when working in this repository.
 
 ## Project
 
-Skull King: a static HTML/CSS/JavaScript browser game based on the Skull King trick-taking card game. Game rules, features, and design are still to be defined by the user. Do not invent game rules; ask when a rule is unclear.
+Skull King: a static HTML/CSS/JavaScript scorekeeping app for the Skull King trick-taking card game. Players use a physical deck. The app is run by one scorekeeper, who enters bids, tricks taken, and bonus captures, and the app calculates scores. The app does not deal, display, or enforce cards.
+
+- Game rules are in `docs/rules.md`. Screen designs are in `docs/ui-design.md`. Treat these as the source of truth.
+- Do not invent game rules. Ask when a rule is unclear, and list it under Open Questions in the relevant doc.
 
 ## Conventions
 
@@ -17,5 +20,5 @@ Skull King: a static HTML/CSS/JavaScript browser game based on the Skull King tr
 
 ## Git
 
-- Default branch is `main`. The current local branch is `master`, with no commits yet.
+- Default branch is `master`. The current local branch is `master`, with no commits yet.
 - Commit only when asked.

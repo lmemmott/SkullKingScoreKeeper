@@ -1,10 +1,17 @@
 # Skull King
 
-A static HTML/CSS/JavaScript browser game based on the Skull King trick-taking card game.
+A static HTML/CSS/JavaScript scorekeeping app for the Skull King trick-taking card game.
+
+Players use a physical Skull King deck. The app is run by one scorekeeper, who records each player's bids, tricks taken, and bonus captures, and the app calculates the scores. The app does not deal or display cards.
 
 ## Status
 
-Early scaffold. Game design and features are still to be defined.
+Early scaffold. The scorekeeping screens are designed in `docs/ui-design.md`, and the rules are in `docs/rules.md`. Implementation has not started.
+
+## Documentation
+
+- `docs/rules.md`: Skull King rules and the scorekeeper's duties.
+- `docs/ui-design.md`: Screen-by-screen design for the scorekeeping app.
 
 ## Project structure
 
