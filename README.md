@@ -6,7 +6,9 @@ Players use a physical Skull King deck. The app is run by one scorekeeper, who r
 
 ## Status
 
-Early scaffold. The scorekeeping screens are designed in `docs/ui-design.md`, and the rules are in `docs/rules.md`. Implementation has not started.
+Working scorekeeper. Games can be set up, scored round by round, corrected, and saved in the browser. The screens follow `docs/ui-design.md`, and the rules are in `docs/rules.md`.
+
+Not yet built: the illustrations listed in `docs/ui-design.md` beyond the title mark, cards, chest, and icons, and the Export and Import ideas for later.
 
 ## Documentation
 

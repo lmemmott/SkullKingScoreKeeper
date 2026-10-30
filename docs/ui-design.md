@@ -68,7 +68,6 @@ All illustrations and icons are line art in one consistent style:
 | Title Screen | Skull-and-crown mark above the title, with a thin wave line below it |
 | Game Setup | Small ship's wheel next to the heading |
 | Start of Round | Fanned stack of cards beside "Deal N cards to each player" |
-| Round in Play | Ship sailing on waves |
 | Enter Results, bonus items | One small icon each: a "14" card, a black "14" card with a Jolly Roger flag, a mermaid, a pirate's hat, and a crown |
 | Enter Results, discarded tricks | Kraken tentacle and whale tail |
 | Round Score | Small check mark for "Met," small X for "Missed" (always with the words) |
@@ -115,7 +114,6 @@ All illustrations and icons are line art in one consistent style:
   - Header: "Round N of 10."
   - Large text: "Deal N cards to each player."
   - "Dealer: [name]," since the deal passes left each round.
-  - Running scoreboard showing each player's total so far.
 - **Controls and actions:**
   - **Start Bidding:** Goes to Enter Bids.
 
@@ -131,20 +129,9 @@ All illustrations and icons are line art in one consistent style:
   - Every player must have a bid before continuing. Missing bids are highlighted.
   - Bids can be changed until the round is confirmed.
 - **Controls and actions:**
-  - **Confirm Bids:** Enabled only when every bid is entered. Goes to Round in Play.
+  - **Confirm Bids:** Enabled only when every bid is entered. Goes to Enter Results.
 
-### 5. Round in Play
-
-- **Purpose:** A resting screen while the round is played with physical cards.
-- **Layout:**
-  - Header: "Round N in play."
-  - A compact list of every player's bid, so the scorekeeper can check it.
-  - Short note: "Enter results when all tricks are played."
-- **Controls and actions:**
-  - **Enter Results:** Goes to Enter Results.
-  - **Edit Bids:** Returns to Enter Bids.
-
-### 6. Enter Results
+### 5. Enter Results
 
 - **Purpose:** Record tricks taken and bonus captures for each player.
 - **Layout:**
@@ -169,9 +156,9 @@ All illustrations and icons are line art in one consistent style:
   - Players who bid zero have their Bonuses section disabled, with the note "No bonuses on a zero bid."
 - **Controls and actions:**
   - **Review Results:** Enabled only when tricks taken plus discarded tricks equal the cards dealt. Goes to Round Score.
-  - **Back:** Returns to Round in Play.
+  - **Back:** Returns to Enter Bids.
 
-### 7. Round Score
+### 6. Round Score
 
 - **Purpose:** Show how each player scored this round, so the scorekeeper can check it before confirming.
 - **Layout:**
@@ -194,7 +181,7 @@ All illustrations and icons are line art in one consistent style:
   - **Scorecard:** Toggles a view of every round's scores so far. Tapping a round in the scorecard opens that round for correction.
   - When this screen shows an earlier round being corrected, **Confirm and Continue** is replaced by **Return to Round N**, which saves the changes and goes back to the screen where the scorekeeper left off.
 
-### 8. Game Over
+### 7. Game Over
 
 - **Purpose:** Announce the winner and show final standings.
 - **Layout:**
@@ -207,7 +194,7 @@ All illustrations and icons are line art in one consistent style:
   - Ties are not broken. All players tied for the highest score are shown as co-winners, for example "Winners: Anna and Ben."
   - Reaching this screen marks the game "Finished" in Past Games.
 
-### 9. Past Games
+### 8. Past Games
 
 - **Purpose:** Show the running list of every game played on this device.
 - **Layout:**
